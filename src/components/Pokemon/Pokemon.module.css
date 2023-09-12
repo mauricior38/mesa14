@@ -1,0 +1,49 @@
+.Card{
+    width: 80%;
+    max-width: 300px;
+    max-height: 400px;
+    min-height: 400px;
+    
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+   
+    transition: 0.2s ease-in-out;
+}
+
+.Card:hover{
+    transform: scale(1.05);
+}
+
+.Card img{
+    width: 60%;
+    max-width: 150px;
+}
+
+.Card h1{
+    font-size: 1.5rem;
+}
+
+.Card button{
+    background-color: transparent;
+    border: 2px solid #26252579;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.Type{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+}
+
+.Type img{
+    width: 25px;
+    margin-right: 5px;
+}
